@@ -1,0 +1,92 @@
+.hero {
+  margin-top: 164px;
+}
+.hero-info {
+  &__title {
+    color: #001a49;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: -1px;
+    width: 537px;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  &__desc {
+    color: #4f596a;
+    font-family: Muli;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 560px;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+}
+.hero-btn {
+  &__primary {
+    display: inline-block;
+    color: #fff;
+    font-family: Muli;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 21px 49px;
+    border-radius: 33px;
+    background: linear-gradient(44deg, #cd10ff 15.75%, #9f06ff 84.63%);
+  }
+}
+
+.hero-student {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  &__img {
+    display: flex;
+  }
+
+  &__img,
+  img {
+    margin-right: -10px;
+  }
+
+  &__text {
+    color: #4f596a;
+    font-family: Muli;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+    span {
+      color: #9f07ff;
+      font-family: Muli;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}
+
+.hero-video {
+  position: relative;
+  top: -445px;
+  left: 765px;
+  width: 590px;
+  height: 360px;
+  max-width: 100%;
+  border-radius: 20px 0px 0px 20px;
+ background-image: url(https://www.bookyouruniversity.in/assets/img/about/about.jpg);
+ background-size: no-repeat;
+ background-position: center;
+ background-size: cover;
+  box-shadow: 0px 32px 44px 0px #818a8c;
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    cursor: pointer;
+  }
+}

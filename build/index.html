@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
+    <title>Gulp Starter Project my LemonSchool</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+   
+    <link rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+  <header class="header">
+    <div class="header__logo">
+      <a href="/"><img src="./img/logo.png" alt="" /></a>
+    </div>
+    <div class="header__nav">
+      <div
+        class="header__backdrop"
+        id="headerBackdrop"
+        onclick="navToggle()"
+      ></div>
+      <ul class="header__ul" id="headerUl">
+        <li class="header__li">
+          <a class="header__a" href="/">Course topics</a>
+        </li>
+        <li class="header__li">
+          <a class="header__a" href="/">What students say</a>
+        </li>
+        <div class="header-btn">
+          <a href="/" class="header-btn__a">Sign in</a>
+        </div>
+        <div class="header-btn__primary">
+          <a href="">Get started</a>
+        </div>
+
+        <span class="material-icons icon-close" onclick="navToggle()"
+          >close</span
+        >
+      </ul>
+
+      <span class="material-icons icon-menu" onclick="navToggle()">menu</span>
+    </div>
+  </header>
+</div>
+ <div class="container">
+  <section class="hero">
+    <div class="hero-info">
+      <div class="hero-info__title">Learn no-code tools today.</div>
+      <div class="hero-info__desc">
+        Create beautiful webflow sites with flowbase. Clone for free and get
+        started building a site today.
+      </div>
+      <div class="hero-btn">
+        <a href="" class="hero-btn__primary">Get started</a>
+      </div>
+    </div>
+    <div class="hero-student">
+      <div class="hero-student__img">
+        <img src="./img/student1.png" alt="" />
+        <img src="./img/student2.png" alt="" />
+        <img src="./img/student3.png" alt="" />
+      </div>
+      <div class="hero-student__text">
+        Join over <span> 4,000+ </span> students
+      </div>
+    </div>
+    <div class="hero-video">
+        <a href="/"><img src="./img/play.png" alt=""></a>
+    </div>
+   
+  </section>
+</div>
+
+    <section class="statistics">
+  <div class="container">
+    <div class="statistic">
+      <div class="statistic-item">
+        <div class="statistic-item__amout">12,201</div>
+        <div class="statistic-item__desc">happy students</div>
+      </div>
+      <div class="statistic-item">
+        <div class="statistic-item__amout">3,291</div>
+        <div class="statistic-item__desc">lectures</div>
+      </div>
+      <div class="statistic-item">
+        <div class="statistic-item__amout">1,291</div>
+        <div class="statistic-item__desc">5 star reviews</div>
+      </div>
+    </div>
+  </div>
+</section>
+ <div class="container">
+  <section class="plan">
+    <div class="h3-title">What you’ll learn</div>
+    
+    <div class="plan-desc">
+      Create beautiful webflow sites with flowbase. Clone for free and get
+      started building a site today.
+      <div class="plan-desc__img"></div>
+    </div>
+    <div class="plan-list">
+      <div class="plan-list__item">
+        <div class="plan-list__img"><img src="./img/arrow.png" alt="" /></div>
+        <div class="plan-info">
+          <div class="plan-info__title">Analyzing User Data</div>
+          <div class="plan-info__desc">
+            Who are you developing for? How will they use your design? Building
+            user personas can answer these.
+          </div>
+        </div>
+
+        <div class="plan-list__btn">
+          <a href="/">6 videos</a>
+          <a href="/">4.5 hours</a>
+        </div>
+      </div>
+
+      <div class="plan-list__item">
+        <div class="plan-list__img"><img src="./img/arrow.png" alt="" /></div>
+
+        <div class="plan-info">
+          <div class="plan-info__title">Analyzing User Data</div>
+          <div class="plan-info__desc">
+            Who are you developing for? How will they use your design? Building
+            user personas can answer these.
+          </div>
+        </div>
+
+        <div class="plan-list__btn">
+          <a href="/">6 videos</a>
+          <a href="/">4.5 hours</a>
+        </div>
+      </div>
+
+      <div class="plan-list__item">
+        <div class="plan-list__img"><img src="./img/arrow.png" alt="" /></div>
+        <div class="plan-info">
+          <div class="plan-info__title">Analyzing User Data</div>
+          <div class="plan-info__desc">
+            Who are you developing for? How will they use your design? Building
+            user personas can answer these.
+          </div>
+        </div>
+
+        <div class="plan-list__btn">
+          <a href="/">6 videos</a>
+          <a href="/">4.5 hours</a>
+        </div>
+      </div>
+
+      <div class="plan-list__item">
+        <div class="plan-list__img"><img src="./img/arrow.png" alt="" /></div>
+        <div class="plan-info">
+          <div class="plan-info__title">Analyzing User Data</div>
+          <div class="plan-info__desc">
+            Who are you developing for? How will they use your design? Building
+            user personas can answer these.
+          </div>
+        </div>
+
+        <div class="plan-list__btn">
+          <a href="/">6 videos</a>
+          <a href="/">4.5 hours</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+    <div class="container">
+  <section class="lector">
+    <div class="lector-info">
+      <h3 class="lector-info__title">
+        Hi, I am David, your course instructor.
+      </h3>
+      <p class="lector-info__desc">
+        Create beautiful webflow sites with flowbase. Clone for free and get
+        started building a site today.
+      </p>
+    </div>
+    <div class="lector-img">
+      <div class="lector-img__container">
+        <img src="./img/man.png" alt="lector" />
+      </div>
+    </div>
+  </section>
+</div>
+ <div class="container">
+  <section class="rewiews">
+    <div class="rewiews-info">
+      <div class="rewiews-info__title">What my students say</div>
+      <div class="rewiews-info__desc">
+        Create custom landing pages with Shades that convert more visitors than
+        any website—no coding required.
+      </div>
+    </div>
+  
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="swiper-slide__desc">
+          “I waited to completely finish the course to rate it. This was my first
+          approach to python, i am an excel and VBA user. The professor has an
+          excellent way to explain it and a lot or order and organization. I
+          really recommend it.”
+        </div>
+        <div class="swiper-info">
+          <img src="./img/henk.png" alt="" class="swiper-info" />
+          <div class="swiper-info__name">Henk Fortuin</div>
+          <div class="swiper-info__prof">Founder of Crips</div>
+        </div>
+        
+      </div>
+      <div class="swiper-slide"><div class="swiper-slide__desc">
+        “I waited to completely finish the course to rate it. This was my first
+        approach to python, i am an excel and VBA user. The professor has an
+        excellent way to explain it and a lot or order and organization. I
+        really recommend it.”
+      </div>
+      <div class="swiper-info">
+        <img src="./img/opi.png" alt="" class="swiper-info" />
+        <div class="swiper-info__name">Opi Watihana</div>
+        <div class="swiper-info__prof">Founder of Crips</div>
+      </div></div>
+      <div class="swiper-slide"><div class="swiper-slide__desc">
+        “I waited to completely finish the course to rate it. This was my first
+        approach to python, i am an excel and VBA user. The professor has an
+        excellent way to explain it and a lot or order and organization. I
+        really recommend it.”
+      </div>
+      <div class="swiper-info">
+        <img src="./img/annie.png" alt="" class="swiper-info" />
+        <div class="swiper-info__name">Annie Reyes</div>
+        <div class="swiper-info__prof">Founder of Crips</div>
+      </div></div>
+      ...
+    </div>
+  
+    <div class="swiper-pagination"></div>
+  
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  </section>
+
+
+</div>
+
+
+    <section class="fag">
+    <div class="h3-title">Frequently asked questions</div>
+  <section class="accordion fag__accordion">
+    <div class="accordion__container">
+      <div class="accordion__item">
+        <header class="accordion__header">
+          <h3 class="accordion__title">
+            Will I get full access to the course after purchasing?
+          </h3>
+          <i class="accordion__icon"><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.41 0.839844L6 5.41984L10.59 0.839844L12 2.24984L6 8.24984L0 2.24984L1.41 0.839844Z" fill="url(#paint0_linear_0_166)"/>
+            <defs>
+            <linearGradient id="paint0_linear_0_166" x1="6.76637" y1="10.0016" x2="11.1957" y2="2.60162" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CD10FF"/>
+            <stop offset="1" stop-color="#9F06FF"/>
+            </linearGradient>
+            </defs>
+            </svg>
+            
+            </i>
+        </header>
+
+        <div class="accordion__content">
+          <p class="accordion__description">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+            terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+            skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+            single-origin coffee nulla assumenda shoreditch et. Nihil anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+            sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+            occaecat craft beer farm-to-table, raw denim aesthetic synth
+            nesciunt you probably haven't heard of them accusamus labore
+            sustainable VHS.
+          </p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <header class="accordion__header">
+          <h3 class="accordion__title">
+            Do you give money back guarantee?
+          </h3>
+          <i class="accordion__icon"><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.41 0.839844L6 5.41984L10.59 0.839844L12 2.24984L6 8.24984L0 2.24984L1.41 0.839844Z" fill="url(#paint0_linear_0_166)"/>
+            <defs>
+            <linearGradient id="paint0_linear_0_166" x1="6.76637" y1="10.0016" x2="11.1957" y2="2.60162" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CD10FF"/>
+            <stop offset="1" stop-color="#9F06FF"/>
+            </linearGradient>
+            </defs>
+            </svg>
+            
+            </i>
+        </header>
+
+        <div class="accordion__content">
+          <p class="accordion__description">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+            terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+            skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+            single-origin coffee nulla assumenda shoreditch et. Nihil anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+            sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+            occaecat craft beer farm-to-table, raw denim aesthetic synth
+            nesciunt you probably haven't heard of them accusamus labore
+            sustainable VHS.
+          </p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <header class="accordion__header">
+          <h3 class="accordion__title">
+            Do you offer a discount?
+          </h3>
+          <i class="accordion__icon"><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.41 0.839844L6 5.41984L10.59 0.839844L12 2.24984L6 8.24984L0 2.24984L1.41 0.839844Z" fill="url(#paint0_linear_0_166)"/>
+            <defs>
+            <linearGradient id="paint0_linear_0_166" x1="6.76637" y1="10.0016" x2="11.1957" y2="2.60162" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CD10FF"/>
+            <stop offset="1" stop-color="#9F06FF"/>
+            </linearGradient>
+            </defs>
+            </svg>
+            
+            </i>
+        </header>
+
+        <div class="accordion__content">
+          <p class="accordion__description">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+            terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+            skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+            single-origin coffee nulla assumenda shoreditch et. Nihil anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+            sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+            occaecat craft beer farm-to-table, raw denim aesthetic synth
+            nesciunt you probably haven't heard of them accusamus labore
+            sustainable VHS.
+          </p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <header class="accordion__header">
+          <h3 class="accordion__title">
+            Do you offer support after joining?
+          </h3>
+          <i class="accordion__icon"><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.41 0.839844L6 5.41984L10.59 0.839844L12 2.24984L6 8.24984L0 2.24984L1.41 0.839844Z" fill="url(#paint0_linear_0_166)"/>
+            <defs>
+            <linearGradient id="paint0_linear_0_166" x1="6.76637" y1="10.0016" x2="11.1957" y2="2.60162" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CD10FF"/>
+            <stop offset="1" stop-color="#9F06FF"/>
+            </linearGradient>
+            </defs>
+            </svg>
+            
+            </i>
+        </header>
+
+        <div class="accordion__content">
+          <p class="accordion__description">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+            terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+            skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+            single-origin coffee nulla assumenda shoreditch et. Nihil anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+            sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+            occaecat craft beer farm-to-table, raw denim aesthetic synth
+            nesciunt you probably haven't heard of them accusamus labore
+            sustainable VHS.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+     <div class="container">
+  <section class="get-started">
+    <span>Get 30 Days Money Back Guarantee</span>
+    <div class="get-started__title">Ready to learn UX Design from the expert?</div>
+    <div class="get-started__btn">
+      <a href="">Get started</a>
+    </div>
+  </section>
+</div>
+
+    <div class="container">
+  <footer class="footer">
+    <div class="footer-info">
+      <div class="footer-info__logo">
+        <a href="/"><img src="./img/logo.png" alt="logo" /></a>
+        <label>
+          <form id="subscribeForm">
+            <div id="emailContainer">
+              <input
+                type="email"
+                id="emailInput"
+                placeholder="Stay in the loop  - sign up with your email"
+                required
+              />
+              <button type="submit" id="subscribeButton">
+                <img src="{send}" alt="" />
+                Subscribe
+              </button>
+            </div>
+          </form>
+        </label>
+      </div>
+    </div>
+    <div class="columns-container">
+		<div class="column">
+			<div class="column-title">Help Menu</div>
+			
+			<a href="/">About</a>
+			<a href="/">Features</a>
+			<a href="/">Works</a>
+			<a href="/">Career</a>
+			
+		</div>
+		<div class="column">
+			<a href="/">Contact</a>
+			<a href="/">Help & Support</a>
+			<a href="/">Privacy Policy</a>
+			<a href="/">Terms & Conditions</a>
+			
+		</div>
+		<div class="column">
+			<div class="column-title">Product</div>
+			<a href="/">Essential Landing Page</a>
+			<a href="/">Alpha Dashboard Pro</a>
+			<a href="/">Karnel Admin Dashboard</a>
+			<a href="/">Gray UI Kit</a>
+			
+		</div>
+  </footer>
+</div>
+
+    <script src="./js/index.bundle.js"></script>
+    <script>
+      function navToggle() {
+        document.getElementById("headerUl").classList.toggle("_active");
+        document.getElementById("headerBackdrop").classList.toggle("_active");
+      }
+    </script>
+    <script>
+      /*=============== ACCORDION ===============*/
+      const accordionItems = document.querySelectorAll(".accordion__item");
+
+      // 1. Selecionar cada item
+      accordionItems.forEach((item) => {
+        const accordionHeader = item.querySelector(".accordion__header");
+
+        // 2. Seleccionar cada click del header
+        accordionHeader.addEventListener("click", () => {
+          // 7. Crear la variable
+          const openItem = document.querySelector(".accordion-open");
+
+          // 5. Llamar a la funcion toggle item
+          toggleItem(item);
+
+          // 8. Validar si existe la clase
+          if (openItem && openItem !== item) {
+            toggleItem(openItem);
+          }
+        });
+      });
+
+      // 3. Crear una funcion tipo constante
+      const toggleItem = (item) => {
+        // 3.1 Crear la variable
+        const accordionContent = item.querySelector(".accordion__content");
+
+        // 6. Si existe otro elemento que contenga la clase accorion-open que remueva su clase
+        if (item.classList.contains("accordion-open")) {
+          accordionContent.removeAttribute("style");
+          item.classList.remove("accordion-open");
+        } else {
+          // 4. Agregar el height maximo del content
+          accordionContent.style.height = accordionContent.scrollHeight + "px";
+          item.classList.add("accordion-open");
+        }
+      };
+    </script>
+   
+    
+  </body>
+</html>
